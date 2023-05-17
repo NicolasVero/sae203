@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    clear: both;
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    font-size: 35px;
+}
+
+#formulaire_inscription {
+    border: 1px solid black;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+#formulaire_inscription form, p {
+    text-align: center;
+    margin: 25px;
+}
+
+#enlever, #rajouter {
+    width: 50%;
+    float: left;
+}
+
+#enlever fieldset, #rajouter fieldset {
+    height: 280px;
+}
+
+input[type="submit"] {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 150px;
+    height: 25px;
+    border: none;
+    transition: 1s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(11, 173, 11);
+    transition: 1s;
+}
+
+.billets {
+    border: 1px solid black;
+    margin: 5px 10px;
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+
+.bouton {
+    background-color: black;
+    clear: both;
+    height: 25px;
+    width: 150px;
+    border-radius: 25px;
+    margin: 0 auto;
+    transition: 2s;
+}
+
+.deconnecter:hover {
+    background-color: #B2432B;
+    transition: 1s;
+}
+
+.gerer:hover {
+    background-color: #4b6adb;
+    transition: 1s;
+}
+
+.bouton p {
+    color: white;
+    text-decoration: none;
+}
+
+
+#consulter, #mes_billets {
+    text-align: center;
+    margin-left: 3%;
+}
+
+.retour_ligne {
+    clear: both;
+    height: 20px;
+    width: 100%;
+}
+
+.rupture {
+    background-color: #FFD7E0;
+}
+
+.mes_billets {
+    background-color: #cbf8c3;
+}
+
+.enlever_sous_lignage {
+    text-decoration: none;
+}
+
+.utilisateurs {
+    margin: 16px;
+    border: 1px solid black;
+    width: 350px;
+    float: left;
+    text-align: center;
+    height: 75px;
+}
+
+.utilisateurs p {
+    margin: 10px;
+}
+
+.administrateur {
+    background-color: rgb(194, 194, 255);
+}
+
+.administrateur p {
+    font-weight: bold;
+}
+
+#force_mdp {
+    width: 150px;
+    margin: 0;
+    display: inline;
+    font-weight: bold;
+}
